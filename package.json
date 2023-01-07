@@ -1,0 +1,27 @@
+{
+  "name": "@issiliel/ajs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Issiliel/ajs.git"
+  },
+  "author": "Elena Voronina",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Issiliel/ajs/issues"
+  },
+  "homepage": "https://github.com/Issiliel/ajs#readme",
+  "dependencies": {
+    "@issiliel/ajs": "^1.0.0"
+  }
+}
